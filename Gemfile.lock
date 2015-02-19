@@ -1,0 +1,9 @@
+GEM
+  specs:
+    jekyll-multiple-languages-plugin (1.2.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-multiple-languages-plugin

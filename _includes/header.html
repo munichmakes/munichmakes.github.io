@@ -5,7 +5,9 @@
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
-    {% if site.lang == "en" %}
+    {{ site }}
+    {{ page }}
+    {% if page.lang == "en" %}
     <a href="/">{% t global.german %}</a>
     {% elsif site.lang == "de" %}
     <a href="/en">{% t global.english %}</a>
